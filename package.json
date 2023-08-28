@@ -1,0 +1,21 @@
+{
+  "name": "js-unit-testing-examples",
+  "version": "1.0.0",
+  "description": "An example project for writing tests in JavaScript. ",
+  "main": "index.js",
+  "type": "module",
+  "_moduleDirectories": [
+    "src"
+  ],
+  "scripts": {
+    "test": "vitest"
+  },
+  "author": "Kristof Siket",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^0.34.3"
+  },
+  "dependencies": {
+    "axios": "^1.5.0"
+  }
+}
