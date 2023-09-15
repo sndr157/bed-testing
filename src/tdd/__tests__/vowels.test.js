@@ -25,4 +25,9 @@ describe("replaceVowels function", () => {
   it('Should replace all vowels with "x" in a string with multiple vowels', () => {
     expect(replaceVowels("programming")).toBe("prxgrxmmxng");
   });
+
+  it("Should throw TypeError if the argument is not a string", () => {
+    expect(() => replaceVowels(123)).toThrow(TypeError);
+    expect(() => replaceVowels(true)).toThrow(TypeError);
+  });
 });
